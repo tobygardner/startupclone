@@ -1,0 +1,129 @@
+/* Main Styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    width: 9.688rem;
+    background-color: #f15a29;
+    margin: 0 25rem;
+    color: #fff;
+    font-size: 1.125rem;
+    ;
+}
+.content {
+	width: 970px;
+	padding: 0px 15px; 
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    height: 70px;
+   
+}
+.top-navigation .links {
+float: right;
+color: #838994;
+font-size: 16px;
+margin-top: 25px;
+}
+.top-navigation .links li {
+display: inline-block;
+margin-left: 25px;
+}
+.top-navigation .links li.active {
+color: #4c5058;
+font-weight: 500;
+}
+.top-navigation .links li:hover {
+cursor: pointer;
+color: #333333;
+}
+.top-navigation .logo {
+	margin-top: 13px
+}
+/*Introduction Section*/
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34rem;
+    overflow: auto;
+}
+.introduction h1,
+.introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.introduction h1 {
+	margin-top: 13rem;
+	font-size: 3.125rem;
+	margin-bottom: 0;
+}
+.introduction h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+/*Cases Section*/
+.cases {
+	padding-bottom: 5rem;
+	border-bottom-color: red;
+}
+.cases h2 {
+	margin-top: 7rem;
+	font-size: 2.75rem;
+	text-align: center;
+    font-weight: 300;
+	color: #000;
+}
+.cases h3 {
+	color: #000;
+	font-size: 1.563rem;
+	font-weight: 300;
+	text-align: center;
+
+}
+.cases .devices {
+	display: inline-block;
+	width: 32.3333%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+/*Social Section*/
+.social h5 {
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-weight: 400
+}
+.icons >li {
+	display: inline-block;
+	list-style: none
+}
+
+
